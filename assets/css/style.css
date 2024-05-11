@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Robot+Mono:wght@400;700&family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Robot Mono", monospace;
+  color: #fff;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 1rem;
+  margin: 20px 0;
+  line-height: 1.7em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 15px;
+  padding: 18px 60px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 50px;
+  background: #fff;
+}
+
+.columns {
+  display: flex;
+  padding: 50px;
+}
+.columns .column {
+  padding: 60px 40px;
+}
+.columns .column-1 {
+  background: #e28525;
+}
+.columns .column-1 .btn {
+  color: #e28525;
+}
+.columns .column-2 {
+  background: #016972;
+}
+.columns .column-2 .btn {
+  color: #016972;
+}
+.columns .column-3 {
+  background: #00403f;
+}
+.columns .column-3 .btn {
+  color: #00403f;
+}
+
+@media (max-width: 768px) {
+  .columns {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */
